@@ -1,0 +1,21 @@
+
+.persons {
+    .btn-floating{
+        position: fixed;
+    bottom: 45px;
+    right: 65px;
+  }
+  a.action {
+    cursor: pointer;
+    &.disabled{
+      cursor: default;
+      filter: grayscale(100%);
+      pointer-events: none;
+    }
+  }
+  tbody.form-people {
+    input {
+      margin-bottom: 0;
+    }
+  }
+}
